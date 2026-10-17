@@ -1,0 +1,20 @@
+{
+  "id": "marvin.never-repeat-yourself",
+  "name": "Never Repeat Yourself",
+  "version": "0.1.0",
+  "status": "scaffold",
+  "category": "Memory",
+  "standard": "Leo should not have to explain the same context, preference, or correction twice.",
+  "test": "Replay a correction corpus and check whether a later output violates a previously recorded rule.",
+  "metric": {
+    "name": "repeated_correction_rate",
+    "unit": "fraction of scored correction opportunities repeated after the rule was recorded"
+  },
+  "claim_boundary": "A zero rate on a fixture does not prove memory across all Marvin sessions.",
+  "latest_run": null,
+  "provenance": {
+    "creator_adjudication": "not yet recorded",
+    "fixtures": "not yet published",
+    "synthetic_results_must_not_be_presented_as_real": true
+  }
+}
